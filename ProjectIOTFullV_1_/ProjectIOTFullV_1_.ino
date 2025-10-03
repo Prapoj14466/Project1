@@ -31,13 +31,13 @@ float temperature;
 
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/U8X8_PIN_NONE);  // เริ่มต้นการใช้งานสำหรับหน้าจอ OLED
 
-const char* ssid = "gg";
-const char* password = "rpki2336";
+const char* ssid = "wifi";
+const char* password = "password";
 const char* mqtt_server = "broker.netpie.io";
 const int mqtt_port = 1883;
-const char* mqtt_Client = "e6ad96e5-d7f4-4e23-a4f1-ddf052651f98";
-const char* mqtt_username = "myXnbQ2fnU2ADLq5s6eddshk4jkV9igg";
-const char* mqtt_password = "aLqs2ciB2rt7vdyhARBjV3sBSNaNUvg2";
+const char* mqtt_Client = "asdasd";
+const char* mqtt_username = "adadsad";
+const char* mqtt_password = "asdad";
 
 int counter = 0;       // ตัวแปรสำหรับจัดการการแสดงภาพแบบ Animation
 int soilMoisture = 0;  // ตัวแปรสำหรับเก็บค่าความชื้นของดิน
